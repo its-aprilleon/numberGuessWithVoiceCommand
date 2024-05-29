@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden; /* hide scroll */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    /* added style */
+    background: linear-gradient(40deg, pink, cyan, yellow);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.2);
+    padding: 20px 30px;
+}
+
+.form-control,
+.btn {
+    padding: 10px;
+    border-style: solid;
+}
+
+.gameform span {
+    display: block;
+    margin-top: 5px;
+}
+
+.mic-btn {
+    margin: 5px 0;
+}
+
+/* added style */
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+    color: #555;
+}
+
+input[type='number'],
+.btn {
+    color: #555;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.btn {
+    background: greenyellow;
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 40px;
+}
